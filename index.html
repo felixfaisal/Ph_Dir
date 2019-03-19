@@ -2,6 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <script src="JS/main.js"></script>
     <title>Phone Directory</title>
   </head>
   <body>
@@ -11,8 +14,28 @@
       </div>
     </header>
     <section>
+      <div class="fill" id="fill">
+        <form id="myform" oninput="x.value=name.value;r.value=number.value;">
+          <input type="text" id="name"><br>
+          <input type="tel" id="number"><br>
+          Name:<output name="x" for="a"></output><br>
+          Contact Number:<output name="r" for="b"></output>
+          <!--<input type="text" id="name"></input>
+          <input type="tel" id="number"></input>
+          <output name="x" for="name" id='dyn'></output>-->
+        </form>
+        <button type="submit" id="newbtn">ADD</button>
       <div class="pa" id="btn">
-        <button type="button" name="button">ADD</button>
+        <button type="submit" name="button" id="btns">ADD</button>
+      </div>
+    </section>
+    <section>
+      <div class="ta" id='final'>
+        <table>
+          <th>Name</th>
+          <th>Phone</th>
+        </table>
+
       </div>
     </section>
 

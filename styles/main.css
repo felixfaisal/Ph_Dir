@@ -1,0 +1,9 @@
+#myform{
+  visibility:hidden;
+}
+#btns{
+  visibility: visible;
+}
+#newbtn{
+  visibility: hidden;
+}
