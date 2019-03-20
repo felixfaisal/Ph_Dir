@@ -1,9 +1,9 @@
 #myform{
-  visibility:hidden;
+  display: none;
 }
 #btns{
-  visibility: visible;
+  display:block;
 }
 #newbtn{
-  visibility: hidden;
+  display: none;
 }
