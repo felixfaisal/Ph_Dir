@@ -1,3 +1,31 @@
+html{
+	margin:0;
+	padding:0;
+}
+h1{
+	color:orange;
+	text-align:center;
+
+}
+#newbtn{
+	color:orange;
+	background-color:blue;
+}
+#btns{
+	color:orange;
+	background-color:blue;	
+	position:fixed;
+	left:48%;
+	right:50%;
+	font-size:25px;
+}
+#final1{
+	text-align:center;
+	padding-top:40px;
+}
+#final{
+	text-align:center;
+}
 #myform{
   display: none;
 }
